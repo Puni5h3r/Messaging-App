@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   >
+
+    <RelativeLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:paddingLeft="10dp"
+            android:text="TextView"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimary"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+android:paddingTop="5dp"
+
+            />
+
+        <TextView
+            android:id="@+id/text_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="10dp"
+            android:text="textview"
+            android:textSize="15sp"
+            android:textColor="@color/colorNew"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="19dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="TextView"
+            android:textColor="@color/colorNew"
+            android:textSize="12dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="335dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:background="#b0afaf"
+            android:paddingTop="52dp" />
+    </RelativeLayout>
+</RelativeLayout>

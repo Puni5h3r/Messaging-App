@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp">
+
+
+
+
+
+    <TextView
+        android:id="@+id/text_message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounded_rectangle_sendmessages"
+        android:maxWidth="240dp"
+        android:padding="8dp"
+        android:layout_marginRight="15dp"
+        android:text="hello, hello!"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/text_message_timeE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="11.40"
+       android:layout_alignParentRight="true"
+        android:layout_below="@id/text_message_body"
+       android:layout_marginRight="19dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/send_or_notsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_message_body"
+        android:layout_toLeftOf="@id/text_message_timeE"
+        android:text="not send"
+        android:textColor="#B71C1C"
+        android:textSize="10sp"
+        android:layout_marginRight="15dp"/>
+
+
+</RelativeLayout>

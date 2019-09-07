@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#3243</item>
+        <item name="actionMenuTextColor">#000</item>
+        <item name="android:textColorPrimary">#000</item>
+        <item name="colorAccent">#a00</item>
+        <item name="android:editTextColor">@android:color/black</item>
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="android:actionButtonStyle">@android:color/black</item>
+        <item name="colorControlNormal">#000</item>
+
+
+    </style>
+
+
+
+</resources>
